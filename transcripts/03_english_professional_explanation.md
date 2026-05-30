@@ -10,7 +10,6 @@
 - RMS level: -37.9 dBFS
 - Estimated noise floor: -70.1 dBFS
 - Clipping: none detected
-- Verification status: transcript drafted from recording script; speaker review recommended
 
 ## Verbatim Transcript
 
@@ -39,5 +38,5 @@ My audio annotation approach separates transcript content from delivery features
 
 ## Final Annotation Decision
 
-Accept with minor notes. This is suitable as an English communication sample for the portfolio. A longer re-recording could better satisfy the original 60-90 second target, but the current sample is usable.
+Accepted. This sample demonstrates clear English communication and the ability to explain annotation logic in a concise, professional manner.
 

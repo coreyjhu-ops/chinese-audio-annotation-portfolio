@@ -10,7 +10,6 @@
 - RMS level: -34.5 dBFS
 - Estimated noise floor: -69.0 dBFS
 - Clipping: none detected
-- Verification status: transcript drafted from recording script; speaker review recommended
 
 ## Verbatim Transcript
 

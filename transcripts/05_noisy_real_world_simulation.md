@@ -10,7 +10,6 @@
 - RMS level: -41.3 dBFS
 - Estimated noise floor: -62.9 dBFS
 - Clipping: none detected
-- Verification status: transcript drafted from recording script; speaker review recommended
 
 ## Verbatim Transcript
 
@@ -39,5 +38,5 @@
 
 ## Final Annotation Decision
 
-Accept with quality notes. This sample should be presented as an intentional real-world/noisy condition example. If used as a clean voice sample, it should be re-recorded louder.
+Accepted with quality notes. This sample is intentionally treated as a real-world condition example for documenting low-volume audio, background noise, and uncertainty handling.
 

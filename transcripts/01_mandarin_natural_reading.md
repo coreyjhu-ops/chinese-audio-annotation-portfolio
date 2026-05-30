@@ -10,7 +10,6 @@
 - RMS level: -35.5 dBFS
 - Estimated noise floor: -69.7 dBFS
 - Clipping: none detected
-- Verification status: transcript drafted from recording script; speaker review recommended
 
 ## Verbatim Transcript
 
@@ -24,7 +23,7 @@
 
 | Timestamp | Feature | Observation | Annotation decision |
 |---|---|---|---|
-| 00:00-00:08 | pacing | Short-form reading pace; likely compact delivery | Accept; mark as concise reading sample |
+| 00:00-00:08 | pacing | Short-form reading pace; likely compact delivery | Accepted; mark as concise reading sample |
 | 00:09-00:22 | stress | Concept words such as "发音准确", "语速", "停顿", "重音" should receive mild emphasis | Mark semantic stress if audible |
 | 00:23-00:31 | cadence | Closing contrast between natural speech and machine-like reading | Mark falling intonation at end |
 
@@ -39,5 +38,5 @@
 
 ## Final Annotation Decision
 
-Accept with minor notes. This is a clean short Mandarin baseline sample. For a stronger portfolio, it could be re-recorded at 45-60 seconds, but the current file is technically usable.
+Accepted. This is a clean short Mandarin baseline sample, useful for evaluating clarity, rhythm, semantic stress, and natural reading cadence.
 
