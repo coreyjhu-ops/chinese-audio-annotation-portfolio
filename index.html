@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chinese-English Audio Data & Annotation Portfolio</title>
+  <style>
+    :root {
+      --bg: #f7f7f3;
+      --text: #1d1d1b;
+      --muted: #62625d;
+      --line: #d8d8d1;
+      --panel: #ffffff;
+      --accent: #146c64;
+      --accent-2: #8c4b26;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    header {
+      padding: 48px 24px 28px;
+      border-bottom: 1px solid var(--line);
+      background: #ffffff;
+    }
+    main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 28px 24px 56px;
+    }
+    .hero {
+      max-width: 1120px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(260px, .65fr);
+      gap: 32px;
+      align-items: end;
+    }
+    h1 {
+      font-size: clamp(2rem, 4vw, 4.25rem);
+      line-height: 1.02;
+      margin: 0 0 18px;
+      letter-spacing: 0;
+    }
+    h2 {
+      font-size: 1.45rem;
+      margin: 34px 0 14px;
+      letter-spacing: 0;
+    }
+    h3 {
+      font-size: 1rem;
+      margin: 0 0 8px;
+      letter-spacing: 0;
+    }
+    p { margin: 0 0 14px; }
+    a { color: var(--accent); }
+    .dek {
+      font-size: 1.08rem;
+      color: var(--muted);
+      max-width: 760px;
+    }
+    .profile {
+      border-left: 3px solid var(--accent);
+      padding-left: 18px;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .sample {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+    }
+    .sample header {
+      padding: 0;
+      border: 0;
+      background: transparent;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: start;
+      margin-bottom: 12px;
+    }
+    .tag {
+      white-space: nowrap;
+      font-size: .78rem;
+      border: 1px solid var(--line);
+      padding: 3px 8px;
+      border-radius: 999px;
+      color: var(--muted);
+      background: #fbfbf8;
+    }
+    audio {
+      width: 100%;
+      margin: 6px 0 12px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+      font-size: .93rem;
+    }
+    th { background: #ededE7; }
+    tr:last-child td { border-bottom: 0; }
+    .note {
+      background: #fff8ea;
+      border: 1px solid #ead9b5;
+      border-radius: 8px;
+      padding: 14px 16px;
+      color: #4b3920;
+    }
+    .evidence {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .evidence article {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+    }
+    .small { color: var(--muted); font-size: .92rem; }
+    .transcript {
+      color: var(--muted);
+      font-size: .9rem;
+      margin-top: 8px;
+    }
+    footer {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 24px 48px;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    @media (max-width: 820px) {
+      .hero, .grid, .evidence { grid-template-columns: 1fr; }
+      header { padding-top: 34px; }
+      main { padding-inline: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <div>
+        <h1>Chinese-English Audio Data & Annotation Portfolio</h1>
+        <p class="dek">Voice samples, annotated transcripts, and a practical audio-quality methodology prepared for Chinese multilingual AI tutoring and speech-data evaluation work. This page is designed as the public companion to the PDF portfolio upload.</p>
+      </div>
+      <aside class="profile">
+        <p><strong>Candidate focus</strong></p>
+        <p>Chinese native speaker with AI/data workflow experience across structured evaluation, quality control, AI-agent tooling, and bilingual communication.</p>
+      </aside>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>What This Demonstrates</h2>
+      <table>
+        <tr><th>Capability</th><th>Portfolio Evidence</th></tr>
+        <tr><td>Mandarin clarity and natural delivery</td><td>Clean Mandarin reading and conversational explanation samples.</td></tr>
+        <tr><td>English communication for recording tasks</td><td>Professional English explanation sample focused on audio annotation.</td></tr>
+        <tr><td>Attention to linguistic nuance</td><td>Accent/regional-variation discussion and structured annotation notes.</td></tr>
+        <tr><td>Audio-data judgment</td><td>Prosody, uncertainty, and quality labels for each recording.</td></tr>
+        <tr><td>AI training data mindset</td><td>Methodology adapted from structured AI/data quality workflows.</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Voice Samples</h2>
+      <div class="grid">
+        <article class="sample">
+          <header><h3>01 Mandarin Natural Reading</h3><span class="tag">31.32s</span></header>
+          <audio controls src="audio/01.m4a"></audio>
+          <p>Baseline Mandarin sample for clear pronunciation, steady rhythm, and non-performative delivery.</p>
+          <p class="transcript"><a href="transcripts/01_mandarin_natural_reading.md">Annotated transcript</a></p>
+        </article>
+        <article class="sample">
+          <header><h3>02 Mandarin Conversational Explanation</h3><span class="tag">39.94s</span></header>
+          <audio controls src="audio/02.m4a"></audio>
+          <p>Natural Chinese explanation of how to judge whether speech is suitable for model training.</p>
+          <p class="transcript"><a href="transcripts/02_mandarin_conversational_explanation.md">Annotated transcript</a></p>
+        </article>
+        <article class="sample">
+          <header><h3>03 English Professional Explanation</h3><span class="tag">43.78s</span></header>
+          <audio controls src="audio/03.m4a"></audio>
+          <p>English sample explaining the difference between transcript content and delivery features.</p>
+          <p class="transcript"><a href="transcripts/03_english_professional_explanation.md">Annotated transcript</a></p>
+        </article>
+        <article class="sample">
+          <header><h3>04 Chinese Accent Awareness</h3><span class="tag">33.62s</span></header>
+          <audio controls src="audio/04.m4a"></audio>
+          <p>Commentary on regional Mandarin variation, pronunciation variants, and annotation judgment.</p>
+          <p class="transcript"><a href="transcripts/04_chinese_accent_awareness.md">Annotated transcript</a></p>
+        </article>
+        <article class="sample">
+          <header><h3>05 Noisy Real-World Simulation</h3><span class="tag">24.83s</span></header>
+          <audio controls src="audio/05.m4a"></audio>
+          <p>Intentional lower-volume/noisier sample for demonstrating uncertainty and quality notes.</p>
+          <p class="transcript"><a href="transcripts/05_noisy_real_world_simulation.md">Annotated transcript</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Audio Quality Snapshot</h2>
+      <table>
+        <tr><th>File</th><th>Duration</th><th>Peak</th><th>RMS</th><th>Noise Floor Estimate</th><th>Decision</th></tr>
+        <tr><td>01.m4a</td><td>31.32s</td><td>-10.6 dBFS</td><td>-35.5 dBFS</td><td>-69.7 dBFS</td><td>Accept with minor notes</td></tr>
+        <tr><td>02.m4a</td><td>39.94s</td><td>-12.0 dBFS</td><td>-36.5 dBFS</td><td>-70.6 dBFS</td><td>Accept</td></tr>
+        <tr><td>03.m4a</td><td>43.78s</td><td>-12.6 dBFS</td><td>-37.9 dBFS</td><td>-70.1 dBFS</td><td>Accept with minor notes</td></tr>
+        <tr><td>04.m4a</td><td>33.62s</td><td>-7.6 dBFS</td><td>-34.5 dBFS</td><td>-69.0 dBFS</td><td>Accept</td></tr>
+        <tr><td>05.m4a</td><td>24.83s</td><td>-22.0 dBFS</td><td>-41.3 dBFS</td><td>-62.9 dBFS</td><td>Usable with notes</td></tr>
+      </table>
+      <p class="small">All five files are mono AAC/m4a at 48 kHz. No clipping was detected in the technical pass.</p>
+    </section>
+
+    <section>
+      <h2>Annotation Method</h2>
+      <p>The annotation process separates the lexical transcript from delivery features. Each sample includes a verbatim transcript, normalized transcript, prosody notes, pronunciation or accent notes, audio-quality assessment, ambiguity log, and final training-data recommendation.</p>
+      <p><a href="annotation_methodology.md">Read the methodology and rubric</a></p>
+    </section>
+
+    <section>
+      <h2>Relevant AI and Data Experience</h2>
+      <div class="evidence">
+        <article>
+          <h3>TokenLess</h3>
+          <p>Designed a four-stage AI pipeline covering planning, optimization, pairwise evaluation, and self-correction. This supports rubric-based and defensible quality decisions.</p>
+        </article>
+        <article>
+          <h3>JHU Research Assistant</h3>
+          <p>Translated non-technical workflows into AI-agent-ready specifications and quality-governed publishing tools, relevant to annotation workflows and reviewer guidance.</p>
+        </article>
+        <article>
+          <h3>Data Quality Pipelines</h3>
+          <p>Built workflows for cleaning, validating, structuring, and reviewing messy data, including OCR + LLM extraction and automated reporting systems.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Review Note</h2>
+      <div class="note">
+        The transcripts in this draft are aligned to the prepared scripts and should receive one speaker review pass before submission. If the submitted portfolio needs a more polished audio profile, re-record samples 01, 03, and 05 at slightly longer duration and stronger volume.
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Prepared as a focused portfolio for Chinese multilingual audio AI tutoring, speech annotation, and training-data quality work.</p>
+  </footer>
+</body>
+</html>
